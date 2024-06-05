@@ -27,3 +27,11 @@ def run():
 
 if __name__ == '__main__':
     run()
+
+#別解
+# N, L, R = map(int, input().split())
+#
+# D = [i + 1 for i in range(N)]
+# D[L - 1:R] = list(reversed(D[L - 1:R]))
+#
+# print(*D)
